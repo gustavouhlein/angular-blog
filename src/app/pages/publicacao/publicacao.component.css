@@ -1,0 +1,28 @@
+
+.publicacao-container {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	margin-bottom: 50px;
+	padding-top: .8rem;
+}
+
+.publicacao-imagem > img {
+	border-radius: 5px;
+	width: 500px;
+}
+
+.publicacao-texto {
+	width: 70%;
+}
+
+.publicacao-texto > p {
+	color: #acacac;
+	text-align: center;
+}
+
+.publicacao-voltar {
+	margin-left: 2rem;
+	margin-top: 1rem;
+}

@@ -8,6 +8,7 @@ import { TituloComponent } from './components/titulo/titulo.component';
 import { CardGrandeComponent } from './components/card-grande/card-grande.component';
 import { CardPequenoComponent } from './components/card-pequeno/card-pequeno.component';
 import { HomeComponent } from './pages/home/home.component';
+import { PublicacaoComponent } from './pages/publicacao/publicacao.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HomeComponent } from './pages/home/home.component';
     TituloComponent,
     CardGrandeComponent,
     CardPequenoComponent,
-    HomeComponent
+    HomeComponent,
+    PublicacaoComponent
   ],
   imports: [
     BrowserModule,

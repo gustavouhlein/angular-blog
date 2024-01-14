@@ -16,9 +16,5 @@
 }
 
 .card-pequeno-imagem > img {
-	height: 100px;
-}
-
-.card-pequeno-container-separador {
-	margin-top: 8px;
+	width: 140px;
 }

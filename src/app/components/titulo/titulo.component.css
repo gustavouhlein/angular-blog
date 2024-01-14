@@ -4,10 +4,10 @@
 
 .titulo-container > h1 {
 	display: flex;
-	margin-bottom: 1rem;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 8rem;
 	font-weight: bolder;
 	justify-content: center;
+	margin-bottom: 1rem;
 }
 

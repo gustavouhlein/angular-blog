@@ -1,14 +1,14 @@
 <div class="card-pequeno-container">
 	<div class="card-pequeno-imagem">
 		<img
-		src="https://www.pulsecarshalton.co.uk/wp-content/uploads/2016/08/jk-placeholder-image.jpg"
+		src="{{ imagem }}"
 		alt=""
 		width="100%"
 		>
 	</div>
 
 	<div class="card-pequeno-titulo">
-		<h1><a href="#">Título da publicação do card pequeno</a></h1>
+		<h1><a [routerLink]="['/publicacao', id]">{{titulo}}</a></h1>
 	</div>
 </div>
 
