@@ -1,0 +1,23 @@
+.card-grande-container {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	height: 450px;
+	justify-content: start;
+	margin-left: 50px;
+	margin-right: 50px;
+	width: 400px;
+}
+
+.card-grande-titulo > h1 {
+	font-size: 18px;
+	margin-top: 12px;
+}
+
+.card-grande-descricao {
+	margin-top: 8px;
+}
+
+.card-grande-descricao > p > a {
+	color: #acacac;
+}
